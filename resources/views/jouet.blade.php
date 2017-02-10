@@ -11,7 +11,7 @@
 
                                         @foreach ($jouets as $jouet)
                                           <h1>Article :{{ $jouet->name }}</h1>
-                                          <img style="width: 150px;" src="/img/{{$jouet->img}}" >
+                                          <img style="width: 400px;" src="/img/{{$jouet->img}}" >
                                           <p>Nombre de piece : {{ $jouet->nbpiece}}</p>
                                           <br>
                                         <p>Prix de l'article: {{ $jouet->prix}}€</p>

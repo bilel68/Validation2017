@@ -15,7 +15,8 @@
                 <div class="panel-body">
                   <p>Veuiller vous connecter pour acceder a la boite de reception</p>
                   <div class="col-md-4 col-md-offset-2">
-<a href="{{ url('reception') }}">Boite au lettre</a>
+<a href="{{ url('reception') }}" style="color: white;">Boite aux lettre</a>
+
                   </div>
 
                 </div>

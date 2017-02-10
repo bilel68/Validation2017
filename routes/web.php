@@ -20,4 +20,5 @@ Route::get('/Jouets', 'JouetController@index');
 Route::get('/jouet/{id}', 'JouetController@getOne');
 Route::get('/contacts', 'ContactController@index');
 Route::get('/reception', 'ReceptionController@index');
+Route::get('/java', 'JavaController@index');
 Route::get('/logout', 'Auth\LoginController@logout');
