@@ -26,16 +26,21 @@ Genre : id, nom, description
 
 jouets_genre :
 
-Contact :
+Contact : X
 
 Insertion d'un message de l'utilisateur dans la base de donnée et l'afficher
 
-Table a prévoir :
+Table a prévoir :X
 
 message: id
 
-Css :
+Css  X:
 
-Responsive
-Ajout d'un fichier js
-Design avec bootstrap
+Responsive X
+Ajout d'un fichier js X
+Design avec bootstrap X
+
+Les identifiants dans de l'admin sont :
+
+id: "admin@admin.fr"
+mdp: "123456"

@@ -9,14 +9,14 @@
 
   </head>
   <body>
-    <header class="d-flex justify-content-around align-items-center">
+    <header>
       <a href="/" class="btn btn-default btn-lg ">Accueil</a>
-      <a href="{{ url('/Jouets') }}">Jouets</a>
-      <a href="{{ url('/contact/new') }}">Contact</a>
-      <a href="{{url('/java')}}">J.S</a>
+      <a href="{{ url('/Jouets') }}"class="btn btn-default btn-lg ">Jouets</a>
+      <a href="{{ url('/contact/new') }}"class="btn btn-default btn-lg ">Contact</a>
+      <a href="{{url('/java')}}"class="btn btn-default btn-lg ">J.S</a>
       @if (Auth::guest())
-          <a href="{{ route('login') }}">Login</a>
-          <a href="{{ route('register') }}">Register</a>
+          <a href="{{ route('login') }}"class="btn btn-default btn-lg ">Login</a>
+          <a href="{{ route('register') }}"class="btn btn-default btn-lg ">Register</a>
 
       @else
       <a>
@@ -36,7 +36,7 @@
       @endif
     </header>
 
-
+@yield('content')
 
 <footer>
 <p>Copyright : ItAkademy 2017</p>

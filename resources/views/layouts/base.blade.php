@@ -82,6 +82,9 @@
 
 
                             @endif
+
+
+                              <img src="/img/accueil.jpg">
                         </ul>
                     </div>
                 </div>
@@ -90,17 +93,12 @@
         </div>
     </div>
 </div>
-<p>Numéro 1 des magasins de jouets pour enfants, Bil'o'Rus propose un grand nombre de jeux, figurines et appareils multimédia pour les enfants de tous les âges.
-   Les grands comme les petits pourront retrouver les indémodables poupées Barbie ou jeux de construction LEGO ainsi que tous leurs héros préférés pour préparer la liste de Noël idéale.
-   Toujours au top de l'actualité, vous trouverez très facilement le cadeau de Noël ou d'anniversaire idéal pour un enfant parmi notre sélection de jeux.
-    N'oubliez pas que Bil'O'Rus c'est aussi de nombreux articles de puériculture et jouets pour bébé via son site Byl'Babies'R'Us</p>
 
-  <img src="/img/accueil.jpg">
 
 </body>
 
 <footer style="text-align:center;">
   <p>Copyright : ITAkademy 2017</p>
-  <a href="contact">Nous contacter</a>
+  
 </footer>
 </html>

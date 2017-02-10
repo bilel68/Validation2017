@@ -14,6 +14,7 @@ z-index: 9999;
 
 body
 {
+  
   margin-top: 100px;
   background-size: cover;
   background-position: center;
@@ -24,10 +25,10 @@ body
 }
 img
 {
-  margin-top: 100px;
+  margin-top: 15px;
   margin-left: auto;
    margin-right: auto;
-  width: 700px;
+  width: 600px;
   border-radius: 50px;
 }
 footer
@@ -40,14 +41,19 @@ z-index: 9999;
  width: 100%;
 }
 .btn {
+  margin-top: 5px;
   display: inline-block;
-  color: black;
+  color: darkgrey;
   border: 2px outset rgba(0, 0, 0, 0.9);
   background: white;
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
   letter-spacing: 2px;
   transition: 0.2s;
+  background-color: lightblue;
+  width: 100px;
+  border-radius: 50px;
+  font-style: fantasy, ;
 }
 
 .btn:hover {
