@@ -19,4 +19,5 @@ Route::get('/contact/new', 'ContactController@newContactForm');
 Route::get('/Jouets', 'JouetController@index');
 Route::get('/jouet/{id}', 'JouetController@getOne');
 Route::get('/contacts', 'ContactController@index');
+Route::get('/reception', 'ReceptionController@index');
 Route::get('/logout', 'Auth\LoginController@logout');

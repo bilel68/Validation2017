@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.apps')
  	@section('content')
  			<div class="container">
  			   <div class="row">
@@ -6,7 +6,7 @@
  			           <div class="panel panel-default">
              		   <div class="panel-heading">Contact</div>
                		  <div class="panel-body">
-                      
+
 
                 		</div>
                      </div>

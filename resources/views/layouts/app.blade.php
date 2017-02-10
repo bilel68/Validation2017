@@ -25,7 +25,7 @@
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
-                <div class="navbar-header">
+
 
                     <!-- Collapsed Hamburger -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
@@ -38,11 +38,12 @@
                     <!-- Branding Image -->
                     <ul class="nav navbar-nav" >
                       <li><a href="/">Accueil</a></li>
-                      @if(Auth::check())
+
                       <li><a href="{{ url('/Jouets') }}">Produits</a></li>
                       <li><a href="{{ url('/contact/new') }}">Contact</a></li>
 
-                      @endif
+
+
 
 
       </ul>
@@ -96,8 +97,12 @@
         @endif
         @yield('content')
     </div>
+<footer>
+<p>Copyright : ItAkademy 2017</p>
+</footer>
 
     <!-- Scripts -->
+
     <script src="/js/app.js"></script>
 </body>
 </html>

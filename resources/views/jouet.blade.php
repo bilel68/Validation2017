@@ -1,22 +1,23 @@
-@extends('layouts.app')
+@extends('layouts.apps')
  	@section('content')
  			<div class="container">
  			   <div class="row">
  			       <div class="col-md-8 col-md-offset-2">
  			           <div class="panel panel-default">
-             		   <div class="panel-heading">Jouets</div>
+             		   <div class="panel-heading"></div>
                		  <div class="panel-body">
+
                       @if(! empty($jouets))
 
                                         @foreach ($jouets as $jouet)
-
-                                          {{ $jouet->name }}
-                                          {{ $jouet->nbpiece}}
-                                          {{ $jouet->prix}}
-
+                                          <h1>Article :{{ $jouet->name }}</h1>
+                                          <img style="width: 150px;" src="/img/{{$jouet->img}}" >
+                                          <p>Nombre de piece : {{ $jouet->nbpiece}}</p>
+                                          <br>
+                                        <p>Prix de l'article: {{ $jouet->prix}}€</p>
                                           @foreach ($jouet->genres as $genre)
-                                            {{ $genre->name}}
-                                            {{ $genre->description}}
+                                          <p>Catégorie : {{ $genre->name}}</p>
+                                          <p>Description : {{ $genre->description}}</p>
                                           @endforeach
                                           <br>
                                         @endforeach
@@ -29,11 +30,11 @@
                                           {{ $genre->description}}
                                         @endforeach
                                       @else
-                                        Aucun hero affiché
+                                        Aucun Jouet a affiché
                                       @endif
-                                      
+
                 		</div>
-                     </div>
+                    </div>
        			 </div>
     			</div>
     	 </div>
